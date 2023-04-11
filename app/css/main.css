@@ -417,6 +417,7 @@ a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    text-align: center;
   }
 }
 .courses__item-list {
@@ -439,6 +440,7 @@ a {
 .courses__item-list--title {
   text-align: center;
   font-size: 24px;
+  margin-bottom: 0;
 }
 @media (max-width: 570px) {
   .courses__item-list--title {
@@ -447,6 +449,7 @@ a {
 }
 .courses__item-list--description {
   max-width: 500px;
+  margin-top: 0;
 }
 .courses__item-list--category {
   display: none;
