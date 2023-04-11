@@ -159,37 +159,37 @@ const courses = [{
   description: "Цей курс допоможе вам зрозуміти основи програмування та надати вам можливість вивчити мову програмування, таку як Python. Ви дізнаєтеся, як створювати прості програми та взаємодіяти з різними іншими програмними продуктами.",
   category: "Program",
   difficulty: "Beginner",
-  image: "../../img/progr.jpg"
+  image: "../img/progr.jpg"
 }, {
   title: "Основи фінансової грамотності",
   description: "Цей курс допоможе вам зрозуміти, як керувати своїми фінансами та планувати своє майбутнє. Ви дізнаєтеся, як ефективно використовувати свої гроші, як уникати боргів та як зберігати свої активи.",
   category: "Finance",
   difficulty: "Advanced",
-  image: "../../img/finance-1.jpg"
+  image: "../img/finance-1.jpg"
 }, {
   title: "Маркетингова стратегія для онлайн бізнесу",
   description: "Цей курс допоможе вам зрозуміти, як розвивати та просувати ваш онлайн бізнес. Ви дізнаєтеся, як створювати стратегії маркетингу, використовувати соціальні медіа та інші інструменти для просування свого бренду та збільшення продажів.",
   category: "Finance",
   difficulty: "Intermediate",
-  image: "../../img/finance-2.jpg"
+  image: "../img/finance-2.jpg"
 }, {
   title: "Математичний аналіз",
   description: "Цей курс охоплює основні поняття математичного аналізу, такі як диференціювання та інтегрування, а також їх застосування у фізиці та інженерії.",
   category: "Math",
   difficulty: "Intermediate",
-  image: "../../img/mathematics.jpg"
+  image: "../img/mathematics.jpg"
 }, {
   title: "Англійська мова для науковців",
   description: "Цей курс надає практику англійської мови для науковців та студентів, включаючи наукове письмо, презентації та дискусії.",
   category: "Engl",
   difficulty: "Intermediate",
-  image: "../../img/engl.jpg"
+  image: "../img/engl.jpg"
 }, {
   title: "Історія середньовічної Європи",
   description: "Цей курс охоплює політичну, культурну та релігійну історію Європи з 5 по 15 століття.",
   category: "History",
   difficulty: "Intermediate",
-  image: "../../img/history.jpg"
+  image: "../img/history.jpg"
 }];
 const filterCourses = (category, difficulty) => {
   if (document.querySelector('#category')) {
